@@ -77,8 +77,7 @@ public class CircularArrayQueueTest extends TestCase
         }
         for( int i = 0; i < r.length; ++i )
         {
-            assertEquals( "Dequeue returns wrong element", r[ i ],
-                    queue.dequeue() );
+            assertEquals( "Dequeue returns wrong element", r[ i ], queue.dequeue() );
             checkSize( r.length - i - 1, queue );
         }
         for( int i = 0; i < r.length; ++i )
@@ -107,8 +106,7 @@ public class CircularArrayQueueTest extends TestCase
         }
         for( int i = 0; i < r.length; ++i )
         {
-            assertEquals( "Dequeue returns wrong element", r[ i ],
-                    queue.dequeue() );
+            assertEquals( "Dequeue returns wrong element", r[ i ], queue.dequeue() );
             checkSize( r.length - i - 1, queue );
         }
         boolean throwsCorrectly = false;
