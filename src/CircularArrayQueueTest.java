@@ -1,4 +1,6 @@
 import junit.framework.TestCase;
+
+import java.util.Arrays;
 import java.util.NoSuchElementException;
 
 public class CircularArrayQueueTest extends TestCase
