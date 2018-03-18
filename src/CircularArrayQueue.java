@@ -1,4 +1,7 @@
-import java.util.Arrays;
+/**
+ * @author Kacper Martela
+ */
+
 import java.util.NoSuchElementException;
 
 public class CircularArrayQueue implements MyQueue{
